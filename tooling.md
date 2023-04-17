@@ -6,6 +6,11 @@ Glint is a layer on top of typescript that provides type checking for gjs, gts, 
 
 Docs, setup, usage are all documented here: https://typed-ember.gitbook.io/glint
 
+## `--typescript`
+
+ember-cli can now generate typescript projects, and TypeScript is officially supported.
+More information can be found in [the RFC](https://github.com/emberjs/rfcs/pull/724)
+
 ## Embroider
 
 Old apps can't "just" switch to Vite. Embroider provides the stepping stones and intermediary / incremental migration path towards pure Vite usage.
