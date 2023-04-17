@@ -4,7 +4,7 @@ All of this will be part of what makes up the next edition, Polaris (which is st
 
 Aggregate of features, patterns, etc across the ecosystem (not just ember)
 
-- app authoring
+- general development
   - [discouraged and replacement APIs](./replacements.md)
   - [new features](./new-features.md)
 - addon authoring
