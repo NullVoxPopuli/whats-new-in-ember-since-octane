@@ -27,6 +27,7 @@ Release posts
  - 2020-05-06 Comparing Ember Octane and React - https://www.pzuraq.com/blog/comparing-ember-octane-and-react
  - 2020-05-08 Autosave in Ember Octane - https://betocantu93.com/autosave-in-ember-octane/
  - 2020-05-08 `mut` and `set` - https://v5.chriskrycho.com/journal/mut-and-set-and-auto-tracking-in-ember-octane/
+ - 2020-06-02 How to improve accessibility in existing apps - https://mainmatter.com/blog/2020/06/02/how-to-improve-the-accessibility-of-your-app/
  - 2021-06-30 Avoiding lifecycles - https://nullvoxpopuli.com/avoiding-lifecycle
  - 2020-11-08 Migrating an addon to the v2 format - https://www.kaliber5.de/en/blog/v2-addon_en
  - 2022-08-18 Integration cookbook - https://nullvoxpopuli.com/2022-08-18-ember-integration-cookbook/
