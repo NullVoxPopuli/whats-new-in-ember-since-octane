@@ -18,6 +18,7 @@ Release posts
 #### How-to
 
  - 2020-02-19 Using WebAssembly (Rust + Ember) - https://mfeckie.dev/wasm-in-ember/
+ - 2021-06-09 Using XState - https://emerson.github.io/posts/emberjs-with-xstate
  - 2021-06-30 Avoiding lifecycles - https://nullvoxpopuli.com/avoiding-lifecycle
  - 2022-11-08 Migrating an addon to the v2 format - https://www.kaliber5.de/en/blog/v2-addon_en
 
