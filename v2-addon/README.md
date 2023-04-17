@@ -1,5 +1,12 @@
 # v2 Addons
 
+[RFC#507](https://rfcs.emberjs.com/id/0507-embroider-v2-package-format/) describes the motivation and purpose of V2 addons.
+
+The tl;dr: 
+ - move builds of addons from the consuming app to publish-time of the addon (makes apps faster)
+ - support tree-shaking
+ - align with broader community standards by _being normal npm packages_ (v1 addons are node programs that apps ask to emit browser code)
+
 ## New blueprint
 
 New blueprint is [available here](https://github.com/embroider-build/addon-blueprint)
