@@ -119,3 +119,11 @@ More information about them can be found in [ember-resources](https://github.com
 [RFC#631](https://github.com/emberjs/rfcs/pull/631) proposed and implemented a `.refresh()` method on the router service. 
 
 [Docs here](https://api.emberjs.com/ember/4.12/classes/RouterService/methods/refresh?anchor=refresh)
+
+### `{{in-element}}`
+
+Allows portalling content to other locations in the DOM.
+
+[Demo here](https://tutorial.glimdown.com/4-logic/9-portalling)
+
+[Docs here](https://api.emberjs.com/ember/release/classes/Ember.Templates.helpers/methods/each?anchor=in-element)
