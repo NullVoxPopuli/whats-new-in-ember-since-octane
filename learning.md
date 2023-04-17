@@ -8,6 +8,9 @@
   - JS: https://stackblitz.com/github/ember-cli/editor-output/tree/stackblitz-app-output
   - TS: https://stackblitz.com/github/ember-cli/editor-output/tree/stackblitz-app-output-typescript
 
+## TypeScript
+
+ - [Semantic Versioning for TypeScript Types](https://github.com/emberjs/rfcs/pull/730)
 
 ## No longer up to date / avoid using
 
