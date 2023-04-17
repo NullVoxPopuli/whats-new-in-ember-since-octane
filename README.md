@@ -19,3 +19,4 @@ Here is an aggregate of features, patterns, etc across the ecosystem (not just e
   - [build time patterns](./v2-addon/build.md)
 - [tooling](./tooling.md)
 - [learning](./learning.md)
+- [blogs and stuff](./community.md)
