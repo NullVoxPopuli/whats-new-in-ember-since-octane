@@ -7,5 +7,8 @@ Aggregate of features, patterns, etc across the ecosystem (not just ember)
 - app authoring
   - [discouraged and replacement APIs](./replacements.md)
   - [new features](./new-features.md)
+- addon authoring
+  - [new blueprint & format](./v2-addons/README.md)
+  - [build time patterns](./v2-addons/build.md)
 - [tooling](./tooling.md)
 - [learning](./learning.md)
