@@ -28,6 +28,10 @@ Release posts
  - 2020-05-08 Autosave in Ember Octane - https://betocantu93.com/autosave-in-ember-octane/
  - 2020-05-08 `mut` and `set` - https://v5.chriskrycho.com/journal/mut-and-set-and-auto-tracking-in-ember-octane/
  - 2020-06-02 How to improve accessibility in existing apps - https://mainmatter.com/blog/2020/06/02/how-to-improve-the-accessibility-of-your-app/
+ - 2020-06-07 Understanding public assets for browser and cordova - https://dev.to/betocantu93/understanding-ember-js-public-assets-path-jj8
+ - 2020-07-07 Resuable DOM behavior in React vs Ember - https://dev.to/_raja_sk_/reusable-dom-behavior-in-react-vs-ember-4p04
+ - 2020-07-11 Share your dev story! - https://dev.to/agathebadia/share-your-dev-story-51dg
+ - 2020-07-17 Mirage with GraphQL - https://github.com/miragejs/graphql
  - 2021-06-30 Avoiding lifecycles - https://nullvoxpopuli.com/avoiding-lifecycle
  - 2020-11-08 Migrating an addon to the v2 format - https://www.kaliber5.de/en/blog/v2-addon_en
  - 2022-08-18 Integration cookbook - https://nullvoxpopuli.com/2022-08-18-ember-integration-cookbook/
