@@ -111,3 +111,11 @@ Resources provide a way to encapsulate long lived state, cleanup, etc.
 
 More information about them can be found in [ember-resources](https://github.com/NullVoxPopuli/ember-resources/), as well as [the tutorial](https://tutorial.glimdown.com/).
 [Starbeam](https://www.starbeamjs.com/guides/fundamentals/resources.html) is another library implementing resources, and the [concepts](https://www.starbeamjs.com/guides/fundamentals/resources.html) are directly transferrable to ember.
+
+## ember-source 
+
+### Router service refresh
+
+[RFC#631](https://github.com/emberjs/rfcs/pull/631) proposed and implemented a `.refresh()` method on the router service. 
+
+[Docs here](https://api.emberjs.com/ember/4.12/classes/RouterService/methods/refresh?anchor=refresh)
