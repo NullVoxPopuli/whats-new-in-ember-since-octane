@@ -59,6 +59,8 @@ function someFunction () {
 
 ### Everything can be used everywhere
 
+<details><summary>js + hbs</summary>
+
 ```js
 import { SomeModifier, SomeComponent, SomeHelper } from 'some-library';
 
@@ -73,6 +75,21 @@ class Demo extends Component {
 
 <@componentFromArgs {{@modifierFromArgs (@helperFromArgs) }} />
 ```
+  
+</details>
+<details><summary>gjs</summary>
+  
+```gjs
+import { SomeModifier, SomeComponent, SomeHelper } from 'some-library';
+
+<template>
+  <SomeComponent {{SomeModifier (SomeHelper) }} />
+
+  <@componentFromArgs {{@modifierFromArgs (@helperFromArgs) }} />
+</template>  
+```  
+  
+</details>  
 
 [Guides docs](https://guides.emberjs.com/release/in-depth-topics/rendering-values/)
 
