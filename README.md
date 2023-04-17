@@ -1,6 +1,6 @@
 # whats-new-in-ember-since-octane
 
-Octane was released in preview in 3.13, and stablily in 3.15 -- this was [Dec 20, 2019](https://blog.emberjs.com/octane-is-here/)
+Octane was released in preview in 3.13, and stablily in [3.15](https://blog.emberjs.com/ember-3-15-released/) -- this was [Dec 20, 2019](https://blog.emberjs.com/octane-is-here/)
 
 All of this will (hopefully 🤞 ) be part of what makes up the next edition, Polaris
 
