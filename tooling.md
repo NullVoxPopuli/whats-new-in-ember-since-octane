@@ -9,7 +9,17 @@ Docs, setup, usage are all documented here: https://typed-ember.gitbook.io/glint
 ## `--typescript`
 
 ember-cli can now generate typescript projects, and TypeScript is officially supported.
-More information can be found in [the RFC](https://github.com/emberjs/rfcs/pull/724)
+More information can be found in [the RFC](https://github.com/emberjs/rfcs/pull/724).
+
+To generate an app or addon with TypeScript out of the box, run one of the following:
+```bash
+# App
+ember new my-app --typescript
+# v1 Addon
+ember addon my-addon --typescript
+# v2 Addon
+ember addon my-addon -b @embroider/addon-blueprint --typescript
+```
 
 ## Embroider
 
