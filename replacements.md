@@ -27,6 +27,6 @@ Unlike `Ember.testing`, anything in the testing block will be removed from produ
 
 ### `@ember/string`
 
-The core team is uninterested in updating `@ember/string` to be compatible with Polaris features, so it's best to move off.
+`@ember/string` will be phased out and put in maintenance mode, because better solutions exist on npm.
 
 The best alternative is [change-case](https://www.npmjs.com/package/change-case) which is cross-platform and ships ESM.
