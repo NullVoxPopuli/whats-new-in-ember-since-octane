@@ -4,6 +4,8 @@
 
 Per [RFC#779](https://github.com/emberjs/rfcs/pull/779), the prior exploration, and additional exploration, post-submission, we have a new file format, gjs and gts, (Glimmer JavaScript, and Glimmer TypeScript, respectively).
 
+Tutorial: https://tutorial.glimdown.com/
+
 The goals of this new format and and problems it solves are explained in the RFC, so please read that if you have questions.
 
 It looks like this:
@@ -23,7 +25,11 @@ For v2 addons: [the rollup plugin](https://github.com/NullVoxPopuli/rollup-plugi
 
 For ease of bridging between old Octane and the new, all code samples throughout this "what's new in ember since octane" guide will include both js/hbs + gjs ways of whatever the topic is.
 
+
+
 ### Normal functions are helpers
+
+<details><summary>js + hbs</summary>
 
 ```js
 class Demo extends Component {
@@ -33,6 +39,21 @@ class Demo extends Component {
 ```hbs
 {{this.someFunction}}
 ```
+  
+</details>
+<details><summary>gjs</summary>
+  
+```gjs
+function someFunction () {
+  return 'Hello there';
+}
+
+<template>
+  {{ (someFunction) }}
+</template>  
+```  
+  
+</details>  
 
 [Announcement](https://blog.emberjs.com/plain-old-functions-as-helpers/)
 
