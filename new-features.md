@@ -95,10 +95,19 @@ import { SomeModifier, SomeComponent, SomeHelper } from 'some-library';
 
 ## Modifiers
 
-[ember-modifier](https://github.com/ember-modifier/ember-modifier) has been added to the default blueprint
+[ember-modifier](https://github.com/ember-modifier/ember-modifier) has been added to the default blueprint.
+
+More information about modifiers can be found on [the tutorial](https://tutorial.glimdown.com/).
 
 ## Dynamically tracked Objects, Arrays, Maps, Sets
 
 [tracked-built-ins](https://github.com/tracked-tools/tracked-built-ins) has been added to the default blueprint.
 
 Generally, wrapping complex data structures in a custom class that manages tracking lifecycles is good.
+
+## Resources
+
+Resources provide a way to encapsulate long lived state, cleanup, etc.
+
+More information about them can be found in [ember-resources](https://github.com/NullVoxPopuli/ember-resources/), as well as [the tutorial](https://tutorial.glimdown.com/).
+[Starbeam](https://www.starbeamjs.com/guides/fundamentals/resources.html) is another library implementing resources, and the [concepts](https://www.starbeamjs.com/guides/fundamentals/resources.html) are directly transferrable to ember.
