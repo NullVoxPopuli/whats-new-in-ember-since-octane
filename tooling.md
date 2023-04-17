@@ -26,3 +26,8 @@ ember addon my-addon -b @embroider/addon-blueprint --typescript
 Old apps can't "just" switch to Vite. Embroider provides the stepping stones and intermediary / incremental migration path towards pure Vite usage.
 
 Getting to standalone vite usage will require all your consumed addons to be in the [v2 format](./v2-addon/README.md).
+
+### CSS-Modules
+
+The implementation of ember-css-modules (at the time of writing) has some issues, but there is [an alternative, embroider-css-modules](https://github.com/ijlee2/embroider-css-modules).
+There is also a more manual way of using CSS-modules described here [in this discuss post](https://discuss.emberjs.com/t/ember-modern-css/19614)
