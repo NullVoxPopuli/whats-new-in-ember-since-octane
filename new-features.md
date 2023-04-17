@@ -93,6 +93,11 @@ import { SomeModifier, SomeComponent, SomeHelper } from 'some-library';
 
 [Guides docs](https://guides.emberjs.com/release/in-depth-topics/rendering-values/)
 
+## Managing the document `title`
+
+[ember-page-title](https://ember-cli.github.io/ember-page-title/) is now a default addon.
+
+
 ## Modifiers
 
 [ember-modifier](https://github.com/ember-modifier/ember-modifier) has been added to the default blueprint.
@@ -143,3 +148,20 @@ import { cached } from '@glimmer/tracking';
 Decorator that caches values of getters, useful for retaining referential integrity.
 
 [Docs](https://api.emberjs.com/ember/release/functions/@glimmer%2Ftracking/cached)
+
+### `invokeHelper` and Helper Managers
+
+These two features, combined with destroyables, are what enabled Resources to exist.
+
+`invokeHelper` allows invoking helpers from JS, without knowing _how_ to invoke them.
+Helper managers tell the framework _how_ to invoke helpers.
+
+[`invokeHelper` Docs](https://api.emberjs.com/ember/release/functions/@ember%2Fhelper/invokeHelper)
+[Helper Manager RFC](https://github.com/emberjs/rfcs/blob/master/text/0625-helper-managers.md)
+
+### Named Blocks
+
+Introduced in [RFC#460](https://rfcs.emberjs.com/id/0460-yieldable-named-blocks/), which at the time of writing is the best documentation for the feature.
+
+This feature is good for design systems, and in general when the component author wants to control _layout_ of a component's parts, but wants to allow for the consumer to pass complex content, where the author's component can, in multiple locations, yield back to the consumer.
+
