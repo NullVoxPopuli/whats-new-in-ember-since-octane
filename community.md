@@ -32,6 +32,12 @@ Release posts
 - 2020-07-14 How Modifiers get managed internally - https://dev.to/_raja_sk_/how-do-ember-modifiers-get-to-be-managed-internally-1i40
 - 2021-01-15 Understanding `args` in Glimmer components - https://v5.chriskrycho.com/journal/understanding-args-in-glimmer-components/
 
+#### Sentiment
+
+- 2021-07 
+  - [Ember.js, The Good Parts](https://javascript.plainenglish.io/ember-js-the-good-parts-f80850414053)
+  - [Why Blueprints in Ember are cool and How They Save you Time Writing Tests](https://dev.to/jayjayjpg/why-blueprints-in-ember-are-cool-and-how-they-save-you-time-writing-tests-1p0b)
+
 #### Unsorted
 
  - 2020-03-15 Ember testing guide - https://selleo.com/ebook/ember-testing-guide - [Announcement](https://twitter.com/PoslinskiNet/status/1239503392386568192)
