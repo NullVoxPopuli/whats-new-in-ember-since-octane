@@ -52,6 +52,14 @@ Release posts
  - 2021-01-15 Understanding `args` in Glimmer components - https://v5.chriskrycho.com/journal/understanding-args-in-glimmer-components/
  - 2021-01-29 Using storybook with ember - https://storybook.js.org/tutorials/intro-to-storybook/ember/en/get-started/
  - 2021-02-02 How to Todo in Ember template lint - https://blog.emberjs.com/how-to-todo-in-ember-template-lint/
+ - 2021-02-11 How to handle uploading and parsing files in tests - https://medium.com/qonto-way/how-to-handle-uploading-and-parsing-files-in-your-frontend-app-tests-19bee8e7a61f
+ - 2021-02-22 Serverless functions - https://shipshape.io/blog/serverless-functions-ember-glimmer/
+ - 2021-03-12 Ember in 2021 - a beacon of producitivity - https://mainmatter.com/blog/2021/03/12/ember.js-in-2021---a-beacon-of-productivity/
+ - 2021-04-08 Ember upgrade sprints - https://blog.centrica.dev/ember/2021/04/08/ember-upgrade-sprints.html
+ - 2021-05-01 Comparing rendering engines in React, ANgular, and Ember - https://www.heise.de/select/ix/2021/5/2018311514916341034
+ - 2021-05-19 Embroider: from zero to route splitting in 3.5 weeks - https://dev.to/bendemboski/embroider-from-zero-to-route-splitting-in-3-5-weeks-5abo
+ - 2021-06-01 Remodeling an ember app - https://www.jenweber.dev/remodeling-an-ember-app---introduction/
+ - 2021-06-27 The difference between ember serve and npm run start - https://dev.to/jayjayjpg/the-difference-between-ember-serve-and-npm-run-start-2m5p
  - 2021-06-30 Avoiding lifecycles - https://nullvoxpopuli.com/avoiding-lifecycle
  - 2022-11-08 Migrating an addon to the v2 format - https://www.kaliber5.de/en/blog/v2-addon_en
  - 2022-08-18 Integration cookbook - https://nullvoxpopuli.com/2022-08-18-ember-integration-cookbook/
@@ -60,6 +68,8 @@ Release posts
 ### Tools
  - Monitor ember app performance with tracerbench - https://github.com/TracerBench/tracerbench-compare-action
  - VS Code "Related Files Hopper" - https://marketplace.visualstudio.com/items?itemName=suchitadoshi1987.file-hopper - [Announcement](https://twitter.com/suchita009/status/1218310260592496641)
+ - ember-electron - https://ember-electron.js.org/
+ - stable ember language server - https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable
 
 ### Community apps
  - Johns Hopkins University Covid Dashboard - https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
