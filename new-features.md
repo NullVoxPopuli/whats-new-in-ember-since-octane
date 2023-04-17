@@ -165,3 +165,14 @@ Introduced in [RFC#460](https://rfcs.emberjs.com/id/0460-yieldable-named-blocks/
 
 This feature is good for design systems, and in general when the component author wants to control _layout_ of a component's parts, but wants to allow for the consumer to pass complex content, where the author's component can, in multiple locations, yield back to the consumer.
 
+### `helper` Helper
+
+Just like `component`, we can now use `helper` to curry helpers and yield helpers back to consumers.
+
+[Docs](https://api.emberjs.com/ember/4.12/classes/Ember.Templates.helpers/methods/helper?anchor=helper)
+
+### `modifier` Helper
+
+Just like `component`, we can now use `modifier` to curry modifiers and yield modifiers back to consumers.
+
+[Docs](https://api.emberjs.com/ember/4.12/classes/Ember.Templates.helpers/methods/modifier?anchor=modifier)
