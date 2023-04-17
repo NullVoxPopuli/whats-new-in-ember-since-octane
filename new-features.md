@@ -1,5 +1,28 @@
 ## Ergonomics
 
+### New file format
+
+Per [RFC#779](https://github.com/emberjs/rfcs/pull/779), the prior exploration, and additional exploration, post-submission, we have a new file format, gjs and gts, (Glimmer JavaScript, and Glimmer TypeScript, respectively).
+
+The goals of this new format and and problems it solves are explained in the RFC, so please read that if you have questions.
+
+It looks like this:
+
+```gjs
+function someFunction () {
+  return 'Hello there';
+}
+
+<template>
+  {{ (someFunction) }}
+</template>
+```
+
+For apps and 1v addons: [the addon that enables this](https://github.com/ember-template-imports/ember-template-imports/)
+For v2 addons: [the rollup plugin](https://github.com/NullVoxPopuli/rollup-plugin-glimmer-template-tag/)
+
+For ease of bridging between old Octane and the new, all code samples throughout this "what's new in ember since octane" guide will include both js/hbs + gjs ways of whatever the topic is.
+
 ### Normal functions are helpers
 
 ```js
