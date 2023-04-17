@@ -32,7 +32,7 @@ Getting to standalone vite usage will require all your consumed addons to be in 
 The implementation of ember-css-modules (at the time of writing) has some issues, but there is [an alternative, embroider-css-modules](https://github.com/ijlee2/embroider-css-modules).
 There is also a more manual way of using CSS-modules described here [in this discuss post](https://discuss.emberjs.com/t/ember-modern-css/19614)
 
-### `ember-cli-typescript`
+## `ember-cli-typescript`
 
 This addon is on its way out, and will soon:tm: deprecated by the typed-ember team.
 
