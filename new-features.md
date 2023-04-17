@@ -127,3 +127,19 @@ Allows portalling content to other locations in the DOM.
 [Demo here](https://tutorial.glimdown.com/4-logic/9-portalling)
 
 [Docs here](https://api.emberjs.com/ember/release/classes/Ember.Templates.helpers/methods/each?anchor=in-element)
+
+### `@ember/destroyable`
+
+Introduced via [RFC#0580](https://emberjs.github.io/rfcs/0580-destroyables.html), which allows you to create and manage your own destroyables.
+
+[Docs](https://api.emberjs.com/ember/release/functions/@ember%2Fdestroyable/registerDestructor)
+
+### Cache API
+
+```js
+import { cached } from '@glimmer/tracking';
+```
+
+Decorator that caches values of getters, useful for retaining referential integrity.
+
+[Docs](https://api.emberjs.com/ember/release/functions/@glimmer%2Ftracking/cached)
