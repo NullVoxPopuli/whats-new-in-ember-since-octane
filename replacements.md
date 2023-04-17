@@ -30,3 +30,8 @@ Unlike `Ember.testing`, anything in the testing block will be removed from produ
 `@ember/string` will be phased out and put in maintenance mode, because better solutions exist on npm.
 
 The best alternative is [change-case](https://www.npmjs.com/package/change-case) which is cross-platform and ships ESM.
+
+### `rsvp`
+
+RSVP was largely a polyfill for Promises before Promises were standardized.
+Nearly all of the features of RSVP have landed in native `Promise`, and at the time of writing, there is even a proposal for `RSVP.hash`: [Await dictionary](https://github.com/tc39/proposal-await-dictionary).
