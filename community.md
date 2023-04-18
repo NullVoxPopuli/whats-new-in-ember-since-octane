@@ -17,71 +17,102 @@ Release posts
 
 #### How-to
 
- - 2020-02-19 Using WebAssembly (Rust + Ember) - https://mfeckie.dev/wasm-in-ember/
- - 2021-06 
-   - [Using XState](https://emerson.github.io/posts/emberjs-with-xstate)
-   - [Avoiding lifecycles](https://nullvoxpopuli.com/avoiding-lifecycle)
- - 2022-11-08 Migrating an addon to the v2 format - https://www.kaliber5.de/en/blog/v2-addon_en
+- 2020-02 Using WebAssembly (Rust + Ember) - https://mfeckie.dev/wasm-in-ember/
+- 2020-03 
+  - Porting _to_ Ember using Percy - https://mainmatter.com/blog/2020/03/27/porting-a-site-to-ember-with-percy/
+  - Ember testing guide - https://selleo.com/ebook/ember-testing-guide - [Announcement](https://twitter.com/PoslinskiNet/status/1239503392386568192)
+- 2020-04
+  - Drag and Drop in Ember Octane - https://dev.to/dgavey/simple-drag-and-drop-in-ember-octane-466i
+  - Migrating from Svelte to Ember - https://otroespacioblog.wordpress.com/2020/04/17/migre-de-svelte-a-emberjs-y-fue-para-bien/
+  - Todo App tutorial in Ember for those who know React - https://dev.to/jennyjudova/todo-app-tutorial-in-ember-octane-for-those-who-know-react-1741
+- 2020-05 
+  - Preview deployments with ember-cli-deploy - https://www.kaliber5.de/en/blog/preview-deployments_en
+  - Autosave in Ember Octane - https://betocantu93.com/autosave-in-ember-octane/
+- 2020-06 How to improve accessibility in existing apps - https://mainmatter.com/blog/2020/06/02/how-to-improve-the-accessibility-of-your-app/
+- 2020-07
+  - Detecting components entering and leaving the viewport - https://medium.com/@koushikrad/using-an-ember-cli-addon-detecting-ember-js-components-entering-or-leaving-the-viewport-dda5ad9b46bf
+- 2020-08 EmberJS with REST API - https://jcwebconcepts.net/EmberJsWithRest/
+- 2020-10
+  - Ember Data Live Updates with WebSockets - https://codingitwrong.com/2020/10/02/ember-data-live-updates-with-rails.html
+  - Modal dialog using yieldable named blocks - https://balinterdi.com/blog/making-a-modal-dialog-using-yieldable-named-blocks/
+- 2020-12
+  - Building prototypes - https://mainmatter.com/blog/2020/12/15/building-prototypes-with-emberjs-and-ember-hotspots/
+  - Building a Router component - https://dev.to/rajasegar/building-a-router-component-for-glimmer-js-52bk
+- 2021-01
+  - Micro-frontends with GLimmer.js and sigle-spa - https://dev.to/rajasegar/micro-frontends-with-glimmer-js-and-single-spa-42aa
+  - Using storybook with ember - https://storybook.js.org/tutorials/intro-to-storybook/ember/en/get-started/
+- 2021-02
+  - How to Todo in Ember template lint - https://blog.emberjs.com/how-to-todo-in-ember-template-lint/
+  - How to handle uploading and parsing files in tests - https://medium.com/qonto-way/how-to-handle-uploading-and-parsing-files-in-your-frontend-app-tests-19bee8e7a61f
+  - Serverless functions - https://shipshape.io/blog/serverless-functions-ember-glimmer/
+- 2021-06 
+  - [Using XState](https://emerson.github.io/posts/emberjs-with-xstate)
+  - Remodeling an ember app - https://www.jenweber.dev/remodeling-an-ember-app---introduction/
+- 2022-11 Migrating an addon to the v2 format - https://www.kaliber5.de/en/blog/v2-addon_en
 
 #### Examples
 
- - 2022-08-18 Integration cookbook - https://nullvoxpopuli.com/2022-08-18-ember-integration-cookbook/
- - 2022-09-05 GJS examples - https://nullvoxpopuli.com/2022-09-05-gjs-cookbook-examples/
+ - 2022-08 Integration cookbook - https://nullvoxpopuli.com/2022-08-18-ember-integration-cookbook/
+ - 2022-09 GJS examples - https://nullvoxpopuli.com/2022-09-05-gjs-cookbook-examples/
+
+#### Comparisons
+
+ - 2020-05 Comparing Ember Octane and React - https://www.pzuraq.com/blog/comparing-ember-octane-and-react
+ - 2020-07
+  - Resuable DOM behavior in React vs Ember - https://dev.to/_raja_sk_/reusable-dom-behavior-in-react-vs-ember-4p04
+ - 2020-10 
+  - React component patterns in Ember - https://www.effective-ember.com/blog/react-component-patterns/
+ - 2020-11
+  - Building Glimmer apps with Snowpack - https://dev.to/rajasegar/building-glimmer-apps-with-snowpack-igc
+ - 2021-05 Comparing rendering engines in React, Angular, and Ember - https://www.heise.de/select/ix/2021/5/2018311514916341034
+
+#### Recommendations
+
+Recommendations of things to do and not to do in ember projects.
+
+- `mut` and `set` - https://v5.chriskrycho.com/journal/mut-and-set-and-auto-tracking-in-ember-octane/
+- Stop extending built in components - https://www.mehulkar.com/blog/2020/07/stop-extending-embers-built-in-components/
+- [Avoiding lifecycles](https://nullvoxpopuli.com/avoiding-lifecycle)
+- Migrating off of `PromiseProxyMixin` - https://v5.chriskrycho.com/journal/migrating-off-of-promiseproxymixin-in-ember-octane/
+- Ember upgrade sprints - https://blog.centrica.dev/ember/2021/04/08/ember-upgrade-sprints.html
+
+#### Showcase
+
+Projects or patterns the community is excited about.
+
+- 2020-07 Mirage with GraphQL - https://github.com/miragejs/graphql
+- 2020-08 Async Data and Autotracking - https://v5.chriskrycho.com/journal/async-data-and-autotracking-in-ember-octane/
 
 #### Deep dives
 
-- 2020-07-14 How Modifiers get managed internally - https://dev.to/_raja_sk_/how-do-ember-modifiers-get-to-be-managed-internally-1i40
-- 2021-01-15 Understanding `args` in Glimmer components - https://v5.chriskrycho.com/journal/understanding-args-in-glimmer-components/
+- 2020-04 Autotracking Case Study - TrackedMap - https://www.pzuraq.com/blog/autotracking-case-study-trackedmap
+- 2020-06 Understanding public assets for browser and cordova - https://dev.to/betocantu93/understanding-ember-js-public-assets-path-jj8
+- 2020-07 
+  - How Modifiers get managed internally - https://dev.to/_raja_sk_/how-do-ember-modifiers-get-to-be-managed-internally-1i40
+  - What is reactivity? - https://dev.to/theaswathprabhu/what-is-reactivity-116f
+- 2020-08 Autotracking: Elegant DX via cutting-edge computer science - https://v5.chriskrycho.com/journal/autotracking-elegant-dx-via-cutting-edge-cs/
+- 2021-01 Understanding `args` in Glimmer components - https://v5.chriskrycho.com/journal/understanding-args-in-glimmer-components/
 
 #### Sentiment
 
+- 2020-06-04 Getting to grips with Ember - https://mono.company/frontend/getting-to-grips-with-ember/
+- 2020-11-17 We chose Ember in 2015 and it is still a good decision in 2020 - https://nothingventured.rocks/we-chose-ember-in-2015-and-it-is-still-a-good-decision-in-2020-c2eb1502a20a
+- 2021-03-12 Ember in 2021 - a beacon of producitivity - https://mainmatter.com/blog/2021/03/12/ember.js-in-2021---a-beacon-of-productivity/
 - 2021-07 
   - [Ember.js, The Good Parts](https://javascript.plainenglish.io/ember-js-the-good-parts-f80850414053)
   - [Why Blueprints in Ember are cool and How They Save you Time Writing Tests](https://dev.to/jayjayjpg/why-blueprints-in-ember-are-cool-and-how-they-save-you-time-writing-tests-1p0b)
 
+#### Encouragement
+
+ - 2020-07 Share your dev story! - https://dev.to/agathebadia/share-your-dev-story-51dg
+ - 2021-05 Embroider: from zero to route splitting in 3.5 weeks - https://dev.to/bendemboski/embroider-from-zero-to-route-splitting-in-3-5-weeks-5abo
+
+#### Speculation
+
+ - 2020-04 What could a next-gen UI component library look like? - https://www.linkedin.com/pulse/ember-glue-what-could-next-generation-ui-component-library-munjal/
+
 #### Unsorted
 
- - 2020-03-15 Ember testing guide - https://selleo.com/ebook/ember-testing-guide - [Announcement](https://twitter.com/PoslinskiNet/status/1239503392386568192)
- - 2020-03-27 Porting _to_ Ember using Percy - https://mainmatter.com/blog/2020/03/27/porting-a-site-to-ember-with-percy/
- - 2020-04-08 What could a next-gen UI component library look like? - https://www.linkedin.com/pulse/ember-glue-what-could-next-generation-ui-component-library-munjal/
- - 2020-04-08 Drag and Drop in Ember Octane - https://dev.to/dgavey/simple-drag-and-drop-in-ember-octane-466i
- - 2020-04-17 Migrating from Svelte to Ember - https://otroespacioblog.wordpress.com/2020/04/17/migre-de-svelte-a-emberjs-y-fue-para-bien/
- - 2020-04-19 Todo App tutorial in Ember for those who know React - https://dev.to/jennyjudova/todo-app-tutorial-in-ember-octane-for-those-who-know-react-1741
- - 2020-04-20 Autotracking Case Study - TrackedMap - https://www.pzuraq.com/blog/autotracking-case-study-trackedmap
- - 2020-05-01 Preview deployments with ember-cli-deploy - https://www.kaliber5.de/en/blog/preview-deployments_en
- - 2020-05-06 Comparing Ember Octane and React - https://www.pzuraq.com/blog/comparing-ember-octane-and-react
- - 2020-05-08 Autosave in Ember Octane - https://betocantu93.com/autosave-in-ember-octane/
- - 2020-05-08 `mut` and `set` - https://v5.chriskrycho.com/journal/mut-and-set-and-auto-tracking-in-ember-octane/
- - 2020-06-02 How to improve accessibility in existing apps - https://mainmatter.com/blog/2020/06/02/how-to-improve-the-accessibility-of-your-app/
- - 2020-06-04 Getting to grips with Ember - https://mono.company/frontend/getting-to-grips-with-ember/
- - 2020-06-07 Understanding public assets for browser and cordova - https://dev.to/betocantu93/understanding-ember-js-public-assets-path-jj8
- - 2020-07-06 Stop extending built in components - https://www.mehulkar.com/blog/2020/07/stop-extending-embers-built-in-components/
- - 2020-07-07 Resuable DOM behavior in React vs Ember - https://dev.to/_raja_sk_/reusable-dom-behavior-in-react-vs-ember-4p04
- - 2020-07-11 Share your dev story! - https://dev.to/agathebadia/share-your-dev-story-51dg
- - 2020-07-12 What is reactivity? - https://dev.to/theaswathprabhu/what-is-reactivity-116f
- - 2020-07-17 Mirage with GraphQL - https://github.com/miragejs/graphql
- - 2020-07-26 Detecting components entering and leaving the viewport - https://medium.com/@koushikrad/using-an-ember-cli-addon-detecting-ember-js-components-entering-or-leaving-the-viewport-dda5ad9b46bf
- - 2020-08-25 Migrating off of `PromiseProxyMixin` - https://v5.chriskrycho.com/journal/migrating-off-of-promiseproxymixin-in-ember-octane/
- - 2020-08-25 Async Data and Autotracking - https://v5.chriskrycho.com/journal/async-data-and-autotracking-in-ember-octane/
- - 2020-08-25 Autotracking: Elegant DX via cutting-edge computer science - https://v5.chriskrycho.com/journal/autotracking-elegant-dx-via-cutting-edge-cs/
- - 2020-08-26 EmberJS with REST API - https://jcwebconcepts.net/EmberJsWithRest/
- - 2020-10-02 Ember Data Live Updates with WebSockets - https://codingitwrong.com/2020/10/02/ember-data-live-updates-with-rails.html
- - 2020-10-04 React component patterns in Ember - https://www.effective-ember.com/blog/react-component-patterns/
- - 2020-10-15 Modal dialog using yieldable named blocks - https://balinterdi.com/blog/making-a-modal-dialog-using-yieldable-named-blocks/
- - 2020-11-17 We chose Ember in 2015 and it is still a good decision in 2020 - https://nothingventured.rocks/we-chose-ember-in-2015-and-it-is-still-a-good-decision-in-2020-c2eb1502a20a
- - 2020-11-28 Building Glimmer apps with Snowpack - https://dev.to/rajasegar/building-glimmer-apps-with-snowpack-igc
- - 2020-12-15 Building prototypes - https://mainmatter.com/blog/2020/12/15/building-prototypes-with-emberjs-and-ember-hotspots/
- - 2020-12-23 Building a Router component - https://dev.to/rajasegar/building-a-router-component-for-glimmer-js-52bk
- - 2021-01-12 Micro-frontends with GLimmer.js and sigle-spa - https://dev.to/rajasegar/micro-frontends-with-glimmer-js-and-single-spa-42aa
- - 2021-01-29 Using storybook with ember - https://storybook.js.org/tutorials/intro-to-storybook/ember/en/get-started/
- - 2021-02-02 How to Todo in Ember template lint - https://blog.emberjs.com/how-to-todo-in-ember-template-lint/
- - 2021-02-11 How to handle uploading and parsing files in tests - https://medium.com/qonto-way/how-to-handle-uploading-and-parsing-files-in-your-frontend-app-tests-19bee8e7a61f
- - 2021-02-22 Serverless functions - https://shipshape.io/blog/serverless-functions-ember-glimmer/
- - 2021-03-12 Ember in 2021 - a beacon of producitivity - https://mainmatter.com/blog/2021/03/12/ember.js-in-2021---a-beacon-of-productivity/
- - 2021-04-08 Ember upgrade sprints - https://blog.centrica.dev/ember/2021/04/08/ember-upgrade-sprints.html
- - 2021-05-01 Comparing rendering engines in React, ANgular, and Ember - https://www.heise.de/select/ix/2021/5/2018311514916341034
- - 2021-05-19 Embroider: from zero to route splitting in 3.5 weeks - https://dev.to/bendemboski/embroider-from-zero-to-route-splitting-in-3-5-weeks-5abo
- - 2021-06-01 Remodeling an ember app - https://www.jenweber.dev/remodeling-an-ember-app---introduction/
  - 2021-06-27 The difference between ember serve and npm run start - https://dev.to/jayjayjpg/the-difference-between-ember-serve-and-npm-run-start-2m5p
 
 
