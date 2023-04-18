@@ -6,7 +6,7 @@ Per [RFC#779](https://github.com/emberjs/rfcs/pull/779), the prior exploration, 
 
 Tutorial: https://tutorial.glimdown.com/
 
-The goals of this new format and and problems it solves are explained in the RFC, so please read that if you have questions.
+The goals of this new format and problems it solves are explained in the RFC, so please read that if you have questions.
 
 It looks like this:
 
