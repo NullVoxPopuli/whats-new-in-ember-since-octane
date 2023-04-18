@@ -48,33 +48,53 @@ Release posts
 - 2021-06 
   - [Using XState](https://emerson.github.io/posts/emberjs-with-xstate)
   - Remodeling an ember app - https://www.jenweber.dev/remodeling-an-ember-app---introduction/
-- 2022-11 Migrating an addon to the v2 format - https://www.kaliber5.de/en/blog/v2-addon_en
+- 2021-11 Migrating an addon to the v2 format - https://www.kaliber5.de/en/blog/v2-addon_en
+- 2022-02 [Mocking with MSW](https://twitter.com/nullvoxpopuli/status/1494427319552905216)
+- 2022-03 [Making your dynamic Ember components work with Embroider](https://mainmatter.com/blog/2022/03/17/dynamic-components-embroider/)
+- 2022-04 [Dynamically importing components](https://twitter.com/nullvoxpopuli/status/1507715367581462531)
+- 2022-06
+  - [Testing when using ember-concurrency tasks](https://mfeckie.dev/testing-tasks/)
+- 2022-11
+  - [Ember Simple Auth - how to overwirte the default transition after authentication](https://sabin.dev/ember-simple-auth-how-to-overwrite-the-default-transition-after-authentication)
+- 2022-12
+  - [Accelerating Code Delivery by 97% with Yarn Workspaces](https://engineering.linkedin.com/blog/2022/accelerating-code-delivery-by-97--with-yarn-workspaces)
+
+  
+#### How-to videos
+
+- 2021-11 [Defaults and initial values](https://twitter.com/knownasilya/status/1465902331753644041) - [Twitter](https://twitter.com/knownasilya/status/1465902331753644041)
+- 2022-07 [Chess](https://twitter.com/knownasilya/status/1545585741073420288)
 
 #### Examples
 
+ - 2021-11 GlimmerX resources - https://twitter.com/vaier/status/1456309739017707521
  - 2022-08 Integration cookbook - https://nullvoxpopuli.com/2022-08-18-ember-integration-cookbook/
  - 2022-09 GJS examples - https://nullvoxpopuli.com/2022-09-05-gjs-cookbook-examples/
 
 #### Comparisons
 
- - 2020-05 Comparing Ember Octane and React - https://www.pzuraq.com/blog/comparing-ember-octane-and-react
- - 2020-07
+- 2020-05 Comparing Ember Octane and React - https://www.pzuraq.com/blog/comparing-ember-octane-and-react
+- 2020-07
   - Resuable DOM behavior in React vs Ember - https://dev.to/_raja_sk_/reusable-dom-behavior-in-react-vs-ember-4p04
- - 2020-10 
+- 2020-10 
   - React component patterns in Ember - https://www.effective-ember.com/blog/react-component-patterns/
- - 2020-11
+- 2020-11
   - Building Glimmer apps with Snowpack - https://dev.to/rajasegar/building-glimmer-apps-with-snowpack-igc
- - 2021-05 Comparing rendering engines in React, Angular, and Ember - https://www.heise.de/select/ix/2021/5/2018311514916341034
+- 2021-05 Comparing rendering engines in React, Angular, and Ember - https://www.heise.de/select/ix/2021/5/2018311514916341034
 
-#### Recommendations
+#### Recommendations / Opinions
 
 Recommendations of things to do and not to do in ember projects.
 
-- `mut` and `set` - https://v5.chriskrycho.com/journal/mut-and-set-and-auto-tracking-in-ember-octane/
-- Stop extending built in components - https://www.mehulkar.com/blog/2020/07/stop-extending-embers-built-in-components/
+- [`mut` and `set`](https://v5.chriskrycho.com/journal/mut-and-set-and-auto-tracking-in-ember-octane/)
+- [Stop extending built in components](https://www.mehulkar.com/blog/2020/07/stop-extending-embers-built-in-components/)
 - [Avoiding lifecycles](https://nullvoxpopuli.com/avoiding-lifecycle)
-- Migrating off of `PromiseProxyMixin` - https://v5.chriskrycho.com/journal/migrating-off-of-promiseproxymixin-in-ember-octane/
-- Ember upgrade sprints - https://blog.centrica.dev/ember/2021/04/08/ember-upgrade-sprints.html
+- [Migrating off of `PromiseProxyMixin`](https://v5.chriskrycho.com/journal/migrating-off-of-promiseproxymixin-in-ember-octane/)
+- [Ember upgrade sprints](https://blog.centrica.dev/ember/2021/04/08/ember-upgrade-sprints.html)
+- [Ember is "data-first"](https://twitter.com/davert/status/1435372911452373000)
+- [Flexible Components](https://mfeckie.dev/flexible-components/)
+- [Using plain functions as helpers](https://blog.emberjs.com/plain-old-functions-as-helpers/)
+- [Prevent UI flashes when loading data](https://twitter.com/nullvoxpopuli/status/1553184820418805762)
 
 #### Showcase
 
@@ -82,6 +102,7 @@ Projects or patterns the community is excited about.
 
 - 2020-07 Mirage with GraphQL - https://github.com/miragejs/graphql
 - 2020-08 Async Data and Autotracking - https://v5.chriskrycho.com/journal/async-data-and-autotracking-in-ember-octane/
+- 2022-09 [Types Public Preview](https://blog.emberjs.com/announcing-official-typescript-types-public-preview/)
 
 #### Deep dives
 
@@ -92,6 +113,8 @@ Projects or patterns the community is excited about.
   - What is reactivity? - https://dev.to/theaswathprabhu/what-is-reactivity-116f
 - 2020-08 Autotracking: Elegant DX via cutting-edge computer science - https://v5.chriskrycho.com/journal/autotracking-elegant-dx-via-cutting-edge-cs/
 - 2021-01 Understanding `args` in Glimmer components - https://v5.chriskrycho.com/journal/understanding-args-in-glimmer-components/
+- Series: [How we got to `<template>` for the new Ember/Glimmer component format](https://v5.chriskrycho.com/journal/ember-template-imports/)
+- 2022-11 [Dive in to modern @ember-data](https://blog.lux.name/2-dive-into-ember-data-1/)
 
 #### Sentiment
 
@@ -101,6 +124,14 @@ Projects or patterns the community is excited about.
 - 2021-07 
   - [Ember.js, The Good Parts](https://javascript.plainenglish.io/ember-js-the-good-parts-f80850414053)
   - [Why Blueprints in Ember are cool and How They Save you Time Writing Tests](https://dev.to/jayjayjpg/why-blueprints-in-ember-are-cool-and-how-they-save-you-time-writing-tests-1p0b)
+- 2022-01
+  - [LinkedIN's roadmap](https://twitter.com/AxleHellfire/status/1478186542954733568)
+  - [Ember as a Frontend Framework](https://www.gavant.com/library/ember-as-a-frontend-framework/)
+- 2022-04
+  - [Why we use Ember.js at OTA Insight](https://dev.to/otainsight/why-we-use-emberjs-at-ota-insight-4oai)
+- 2022-06
+  - [Stability without stagnation -- Using Ember at Qonto](https://medium.com/qonto-way/stability-without-stagnation-using-ember-at-qonto-b221b52b917b)
+
 
 #### Encouragement
 
@@ -110,6 +141,27 @@ Projects or patterns the community is excited about.
 #### Speculation
 
  - 2020-04 What could a next-gen UI component library look like? - https://www.linkedin.com/pulse/ember-glue-what-could-next-generation-ui-component-library-munjal/
+
+#### Interview / Chat / Podcast
+
+- 2021-11 https://nothingventured.rocks/ember-phorest-with-balint-erdi-7e90126975ee
+- 2022-01
+  - https://www.whiskeywebandwhatnot.fm/ember-vs-react-jamstack-and-holes-in-the-hiring-process-with-chris-manson/
+  - https://www.whiskeywebandwhatnot.fm/robbies-origin-story-learning-to-code-learning-to-hire-and-taking-the-entrepreneurial-leap/
+  - https://shoptalkshow.com/499/
+- 2022-02
+  - https://www.whiskeywebandwhatnot.fm/discovering-ember-adopting-orbit-and-unlocking-optimization-with-chris-thoburn-runspired/   
+  - https://www.whiskeywebandwhatnot.fm/work-life-balance-react-and-why-accessibility-is-everything-with-melanie-sumner/
+- 2022-04
+  - https://www.whiskeywebandwhatnot.fm/transitioning-to-tech-and-writing-what-you-know-with-kara-luton/
+  - https://www.whiskeywebandwhatnot.fm/setting-standards-community-lifelines-and-the-beauty-of-open-source-with-jen-weber/
+- 2022-06
+  - https://www.whiskeywebandwhatnot.fm/polaris-starbeam-and-the-future-of-ember-with-godfrey-chan/
+- 2022-07
+  - https://www.whiskeywebandwhatnot.fm/bringing-types-to-ember-with-chris-krycho/
+  - https://www.whiskeywebandwhatnot.fm/developing-orbit-and-the-future-of-cross-framework-solutions-with-dan-gebhardt/
+- 2022-08
+  - https://www.whiskeywebandwhatnot.fm/emerging-tech-a-resource-renaissance-and-embracing-ember-with-preston-sego/  
 
 #### Unsorted
 
@@ -123,10 +175,12 @@ Projects or patterns the community is excited about.
  - stable ember language server - https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable
 
 ### Community apps
- - Johns Hopkins University Covid Dashboard - https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
- - Incoming news on Covid Dashboard - https://feeder.co/reader/corona
- - Minesweeper - https://github.com/scudco/tomsweeper - [Play](https://tomsweeper.scud.co/)
- - Virtual art exhibit - https://10001.unmute.nyc/exhibit/teams
+ - [Johns Hopkins University Covid Dashboard](https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
+ - [Incoming news on Covid Dashboard](https://feeder.co/reader/corona)
+ - Game: [Tomsweeper](https://github.com/scudco/tomsweeper) - [Play](https://tomsweeper.scud.co/)
+ - [Virtual art exhibit](https://10001.unmute.nyc/exhibit/teams)
+ - [Glimmer cheatsheet](https://t.co/tJI91yM9Rw) - [Announcement](https://twitter.com/nullvoxpopuli/status/1439652161625985037)
+ - [Wordle](https://ember-wordle.pages.dev/2023-04-18) - [Announcement](https://twitter.com/nullvoxpopuli/status/1485438520604909575)
 
 ### Other Community resources
  - [Russian community](https://habr.com/ru/articles/483630/)

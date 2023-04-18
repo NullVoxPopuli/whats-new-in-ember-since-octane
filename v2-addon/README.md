@@ -19,3 +19,10 @@ Best to read up on [package.json#exports](https://nodejs.org/api/packages.html#e
 For migrating a v1 addon to a v2 addon, you may follow _[Porting Addons to V2](https://github.com/embroider-build/embroider/blob/main/PORTING-ADDONS-TO-V2.md)_ and
 this blog post [Migrating an Ember addon to the next-gen v2 format
 ](https://www.kaliber5.de/de/blog/v2-addon_en).
+
+## Migrating v1 addons
+
+There are two utilities to aid in migration
+
+ - [ember-addon-migrator](https://github.com/NullVoxPopuli/ember-addon-migrator)
+ - [v1-to-v2-codemod](https://github.com/ijlee2/ember-codemod-v1-to-v2)

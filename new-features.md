@@ -133,6 +133,18 @@ Allows portalling content to other locations in the DOM.
 
 [Docs here](https://api.emberjs.com/ember/release/classes/Ember.Templates.helpers/methods/each?anchor=in-element)
 
+### `{{unique-id}}`
+
+Allows for easy sibling label + input configuration
+```hbs
+{{#let (unique-id) as |emailId|}}
+  <label for={{emailId}}>Email address</label>
+  <input id={{emailId}} type="email" />
+{{/let}}
+```
+
+[Docs](https://api.emberjs.com/ember/4.12/classes/Ember.Templates.helpers/methods/unique-id?anchor=unique-id)
+
 ### `@ember/destroyable`
 
 Introduced via [RFC#0580](https://emberjs.github.io/rfcs/0580-destroyables.html), which allows you to create and manage your own destroyables.
@@ -143,6 +155,14 @@ Introduced via [RFC#0580](https://emberjs.github.io/rfcs/0580-destroyables.html)
 
 ```js
 import { cached } from '@glimmer/tracking';
+
+class Demo extends Component {
+  @cached 
+  get foo() {
+    return someExpensiveComputation(this.args.inputs);
+  }
+
+}
 ```
 
 Decorator that caches values of getters, useful for retaining referential integrity.
@@ -176,3 +196,12 @@ Just like `component`, we can now use `helper` to curry helpers and yield helper
 Just like `component`, we can now use `modifier` to curry modifiers and yield modifiers back to consumers.
 
 [Docs](https://api.emberjs.com/ember/4.12/classes/Ember.Templates.helpers/methods/modifier?anchor=modifier)
+
+
+## `@ember/test-helpers`
+
+### `renderSettled`
+
+yields back to the caller after render has finished, but before "settled-ness" is achieved, useful for testing loading states.
+
+[Announcement](https://blog.emberjs.com/ember-4-5-released/#toc_2-a-new-rendersettled-test-helper)
