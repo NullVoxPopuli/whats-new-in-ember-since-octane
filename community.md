@@ -58,6 +58,8 @@ Release posts
   - [Ember Simple Auth - how to overwirte the default transition after authentication](https://sabin.dev/ember-simple-auth-how-to-overwrite-the-default-transition-after-authentication)
 - 2022-12
   - [Accelerating Code Delivery by 97% with Yarn Workspaces](https://engineering.linkedin.com/blog/2022/accelerating-code-delivery-by-97--with-yarn-workspaces)
+- 2023-04
+  - [Quick full-stack app deployment using AWS and Ember.js](https://blog.mrloop.com/javascript/ember/typescript/aws/sst/2023/04/19/ember-sst.html)
 
   
 #### How-to videos
